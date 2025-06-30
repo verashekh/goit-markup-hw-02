@@ -7,7 +7,7 @@ ul {
   list-style-type: none;
 }
 
-a {
+.list {
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
@@ -15,27 +15,31 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-a:hover {
+.list:hover {
   color: #404bbf;
 }
-a:focus {
+.list:focus {
   color: #404bbf;
 }
 
-.address .link {
-  font-weight: 400;
+.contacts {
   font-style: normal;
+}
+.links {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
-.address .link:hover {
+.links:hover {
   color: #404bbf;
 }
-.address .link:focus {
+.links:focus {
   color: #404bbf;
 }
 
 /* logo */
-.lo {
+.logo-web {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -45,22 +49,24 @@ a:focus {
   color: #4d5ae5;
 }
 
-.go {
+.logo-studio {
   color: #2e2f42;
 }
 
 /* Main content */
 /* Section 1 */
-h1 {
-  font-weight: 700;
+.solutions {
+  background: #2e2f42;
+}
+.solutions-title {
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  background: #2e2f42;
 }
 .order-service-btn {
+  font-family: 'Roboto', sans-serif;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -76,22 +82,22 @@ h1 {
   background: #404bbf;
 }
 /* Our prinsipals */
-h2 {
-  font-weight: 700;
+.section-title {
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
-h3 {
+.principals-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-p {
+.principals-descr {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -99,13 +105,16 @@ p {
   color: #434455;
 }
 /* Our team */
-.our-team {
-  text-align: center;
+.team {
+  background: #f4f4fd;
+}
+.team-players {
+  background: #ffffff;
 }
 
 /* Footer */
 
-.lo-futter {
+.logo-web-futter {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -113,13 +122,13 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  background: #2e2f42;
 }
-.go-futter {
+.logo-studio-futter {
   color: #f4f4fd;
-  background: #2e2f42;
 }
 .text-footer {
   color: #f4f4fd;
+}
+.footer {
   background: #2e2f42;
 }
