@@ -1,6 +1,7 @@
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
-  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background: #ffffff;
 }
 /* header */
 ul {
@@ -127,6 +128,8 @@ ul {
   color: #f4f4fd;
 }
 .text-footer {
+  line-height: 150%;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 .footer {
